@@ -1,13 +1,82 @@
+/* general */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.App {
+    text-align: center;
+}
+
+.font {
+    font-family: "Cairo", sans-serif;
+    font-family: "Dancing Script", cursive;
+    font-family: "Luxurious Script", cursive;
+    font-family: "Meow Script", cursive;
+    font-weight: bold;
+}
+
+.under-line {
+    width: 200px;
+    height: 1px;
+    border-radius: 5px;
+    border: 2px solid yellow;
+    margin:auto;
+}
+
+.btn {
+    background:yellow;
+}
+
+/* navbar */
+.btn-nav {
+    border-color: yellow;
+    background:black;
+    color: yellow;
+}
+
+.btn-nav:hover {
+    background: yellow;
+    color: black;
+    border: none;
+}
+
+/* navbar */
+.img-width {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.searsh-nav:focus {
+    border-color: yellow;
+    box-shadow: 0 0 0 0.25rem rgb(255, 255, 0, 0.25);
+}
+
+/* buttons */
+
+.btn:hover {
+    border: 1px solid yellow;
+}
+
+/* cards */
+.img-item {
+    width:200px;
+    height:200px;
+}
+
+.item-price {
+    color:red;
+    font-size:16px;
+    font-weight:bold;
+    line-height:20px;    
 }
