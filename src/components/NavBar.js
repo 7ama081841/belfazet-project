@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 import {
     Button,
     Container,
@@ -12,7 +12,7 @@ import logo from "../images/258477623_4159576937480843_4758011533234558840_n.jpg
 
 const NavBar = ({ filterBySearsh }) => {
 
-    const [ searsh , setSearsh ] = useState()
+    const [ searsh , setSearsh ] = useState("")
 
 
     const onSearsh = (e) => {

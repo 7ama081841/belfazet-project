@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
-// https://www.react-reveal animation
 import Rotate from "react-reveal/Zoom";
 
 const Cards = (props) => {
